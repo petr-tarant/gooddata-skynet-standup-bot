@@ -66,15 +66,16 @@ function sendStandupNotification() {
     }
 
     const teamMembers = [
-        "USA8YNHR6",    //Lukas Ther
         "U3B6WKA57",    //Petr Tarant
-        "U7LLS4W75",    //Matyas Kandl
-        "U023FFNGA0H",  //Miroslav Koldus
-        "U01G6MG3EA3",   //Vojtech Tollar
-        "U08JV494B8A",   //Zdenek Ornst
-        "U08HPKN248P",   //Vojtech Tollar
-        "U08HPKN248P",   //Vladimir Krocak
-        "U091FHTFKAS",   //Jan Svager
+        "U8CCJLR42",    //Ondrej Macek
+        "U8X28E25Q",    //Tomas Muchka
+        "U026KDFKEV7",   //Andrii 
+        "U08D4QBD3HV",  //Jakub Svehla
+        "U08J8CYUJ12",   //Jakub Zovak
+        "U02FE0UQWPM",   //Jan Kadlec
+        "U08DK98UY4B",   //Marcelo
+        "U0920FWFR97",   //Vojtech Bartos
+        "U026TUKM89Z",   //Stanislav Hacker
     ];
 
     // Get next moderator using the simple rotation system
