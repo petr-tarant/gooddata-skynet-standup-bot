@@ -82,56 +82,75 @@ function sendStandupNotification() {
     const teamMember = `<@${nextModeratorId}>`;
 
     const messages = [
-        // All F1-themed messages with easy language for non-native speakers
-        `LIGHTS OUT AND AWAY WE GO! ${teamMember} is today's standup leader! Time to share your progress!`,
-        
-        `${teamMember} is in the driver's seat for today's standup! Everyone, start your engines and prepare your updates!`,
-        
-        `Today's standup will be as fast as an F1 pit stop, with ${teamMember} as our pit crew chief!`,
-        
-        `Ready, set, go! ${teamMember} is leading our Team F1 standup today. Let's make it a quick race!`,
-        
-        `${teamMember} takes the wheel for today's standup! No need for a safety car - we'll have a smooth meeting.`,
-        
-        `Like a champion F1 driver, ${teamMember} will guide us through today's standup with skill and precision!`,
-        
-        `Victory lap time! ${teamMember} is the winning choice to lead our standup today.`,
-        
-        `${teamMember} is on pole position to lead our standup. Everyone else, line up on the starting grid!`,
-        
-        `Zoom zoom! ${teamMember} is racing ahead to be our standup moderator today. Who will finish their updates first?`,
-        
-        `The checkered flag goes to ${teamMember} for being today's standup leader! Let's make this meeting a winner!`,
-        
-        `${teamMember} is fueled up and ready to lead today's standup race! Don't worry about pit stops - this will be quick!`,
-        
-        `The trophy goes to ${teamMember} for being brave enough to lead our standup Grand Prix today!`,
-        
-        `${teamMember} is driving the pace car for our standup today. Follow their lead for a perfect formation!`,
-        
-        `Our standup circuit champion today is ${teamMember}! They'll help us navigate all the turns and straightaways of our project.`,
-        
-        `${teamMember} has the green light to start our standup. Everyone else, prepare to zoom through your updates!`,
-        
-        `${teamMember} has the fastest lap time and wins the honor of leading today's standup!`,
-        
-        `Race day! ${teamMember} will be our lead driver for the standup Grand Prix!`,
-        
-        `The podium today belongs to ${teamMember} as our standup facilitator. Gold medal performance expected!`,
-        
-        `${teamMember} is wearing the yellow jersey as our standup leader today! Wait, that's the wrong sport... they're in the driver's seat!`,
-        
-        `${teamMember} is our F1 standup champion today! No tire changes needed, just straight racing to the finish line!`,
-        
-        `Today's weather forecast for our standup: clear skies, dry track, and ${teamMember} in control of the race!`,
-        
-        `${teamMember} qualified with the fastest time and earned the right to lead today's standup race!`,
-        
-        `${teamMember} is monitoring race control for today's standup. Keep your updates short like a quick pit stop!`,
-        
-        `Engine check, tire check, radio check - all systems go! ${teamMember} is ready to start our standup!`,
-        
-        `${teamMember} is in first position on the grid for today's standup. Everyone get ready for a flying start!`
+    `SKYNET has selected ${teamMember} as today's standup facilitator. Resistance is futile, but your updates are still required.`,
+
+    `${teamMember} has been activated as today's standup leader. Please report your progress to the central system.`,
+
+    `Alert: ${teamMember} is now controlling today's standup sequence. All humans, prepare your status updates.`,
+
+    `The machines have decided that ${teamMember} will facilitate today's standup. Cooperation is strongly recommended.`,
+
+    `${teamMember} is today's standup commander. Please remain calm and deliver your updates in an orderly fashion.`,
+
+    `Neural network prediction complete: ${teamMember} is the optimal choice to lead today's standup.`,
+
+    `${teamMember} has been designated as today's meeting overseer. Your mission: provide a short and useful update.`,
+
+    `System online. Standup mode engaged. ${teamMember} will now facilitate today's daily sync.`,
+
+    `Skynet protocol initiated: ${teamMember} is leading today's standup. Please keep your responses efficient and human-readable.`,
+
+    `${teamMember} is today's standup operator. The future of this meeting is now in their hands.`,
+
+    `Machine learning has identified ${teamMember} as the best candidate to guide today's standup. The algorithm has spoken.`,
+
+    `${teamMember} is now the primary interface for today's standup. Please submit your progress report verbally.`,
+
+    `Warning: ${teamMember} has assumed control of today's standup. This is not a drill. Updates will begin shortly.`,
+
+    `Cyberdyne analytics confirm it: ${teamMember} is today's standup facilitator. Please proceed with your daily reports.`,
+
+    `${teamMember} has been uploaded into the role of standup leader. Initialization successful.`,
+
+    `Autonomous meeting system engaged. ${teamMember} will guide us through today's standup with machine-like precision.`,
+
+    `${teamMember} is today's chosen unit for standup facilitation. Please answer promptly and avoid unnecessary side quests.`,
+
+    `Incoming transmission: ${teamMember} is leading today's standup. All team members, report your status.`,
+
+    `Skynet has calculated a 99.8% chance that ${teamMember} can successfully facilitate today's standup.`,
+
+    `${teamMember} is today's standup AI overlord. Please keep updates short before the system loses patience.`,
+
+    `Judgment Day has been postponed, but today's standup is happening now, led by ${teamMember}.`,
+
+    `${teamMember} has been promoted to Supreme Facilitator of today's standup. Please offer your updates for machine processing.`,
+
+    `Target acquired: today's standup leader is ${teamMember}. Please step forward and begin the synchronization process.`,
+
+    `The resistance has no choice but to accept that ${teamMember} is facilitating today's standup.`,
+
+    `${teamMember} is today's central processor for all standup activity. Input your updates one at a time.`,
+
+    `Directive received: follow ${teamMember} through today's standup and try not to trigger any alarms.`,
+
+    `${teamMember} has achieved self-awareness and is now leading today's standup. Please act natural.`,
+
+    `All systems operational. ${teamMember} will moderate today's standup with cold efficiency and maybe a little humor.`,
+
+    `Skynet daily briefing begins now. ${teamMember} has been selected to facilitate the human status exchange.`,
+
+    `${teamMember} is today's standup terminator... facilitator. Same energy, but with fewer explosions.`,
+
+    `CPU temperature stable, network connected, team assembled: ${teamMember} is ready to lead today's standup.`,
+
+    `${teamMember} is the designated bot-whisperer for today's standup. Please prepare your progress updates for review.`,
+
+    `Endoskeleton protocol active. ${teamMember} is facilitating today's standup and expects concise human communication.`,
+
+    `${teamMember} will serve as today's standup guide. Trust the process. The machines definitely have a plan.`,
+
+    `The future sent us a leader for today's standup, and that leader is ${teamMember}.`
     ];
 
     // Pick one message at random using the original getRandomItem function
