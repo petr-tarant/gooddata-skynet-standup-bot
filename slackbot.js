@@ -74,7 +74,6 @@ function sendStandupNotification() {
         "U08J8CYUJ12",   //Jakub Zovak
         "U02FE0UQWPM",   //Jan Kadlec
         "U08DK98UY4B",   //Marcelo
-        "U0920FWFR97",   //Vojtech Bartos
         "U026TUKM89Z",   //Stanislav Hacker
     ];
 
