@@ -67,14 +67,13 @@ function sendStandupNotification() {
 
     const teamMembers = [
         "U3B6WKA57",    //Petr Tarant
-        "U8CCJLR42",    //Ondrej Macek
         "U8X28E25Q",    //Tomas Muchka
-        "U026KDFKEV7",   //Andrii 
         "U08D4QBD3HV",  //Jakub Svehla
-        "U08J8CYUJ12",   //Jakub Zovak
-        "U02FE0UQWPM",   //Jan Kadlec
-        "U08DK98UY4B",   //Marcelo
-        "U026TUKM89Z",   //Stanislav Hacker
+        "U02FE0UQWPM",  //Jan Kadlec
+        "U08DK98UY4B",  //Marcelo
+        "U026TUKM89Z",  //Stanislav Hacker
+        "U0AMQ94LX7E",  //Jan Brandejs
+        "U0B1QT2QPCG",  //Zdeněk Musil
     ];
 
     // Get next moderator using the simple rotation system
