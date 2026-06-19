@@ -70,7 +70,6 @@ function sendStandupNotification() {
         "U8X28E25Q",    //Tomas Muchka
         "U08D4QBD3HV",  //Jakub Svehla
         "U02FE0UQWPM",  //Jan Kadlec
-        "U08DK98UY4B",  //Marcelo
         "U026TUKM89Z",  //Stanislav Hacker
         "U0AMQ94LX7E",  //Jan Brandejs
         "U0B1QT2QPCG",  //Zdeněk Musil
