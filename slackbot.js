@@ -72,7 +72,6 @@ function sendStandupNotification() {
         "U02FE0UQWPM",  //Jan Kadlec
         "U026TUKM89Z",  //Stanislav Hacker
         "U0AMQ94LX7E",  //Jan Brandejs
-        "U0B1QT2QPCG",  //Zdeněk Musil
     ];
 
     // Get next moderator using the simple rotation system
