@@ -68,7 +68,6 @@ function sendStandupNotification() {
     const teamMembers = [
         "U3B6WKA57",    //Petr Tarant
         "U8X28E25Q",    //Tomas Muchka
-        "U08D4QBD3HV",  //Jakub Svehla
         "U02FE0UQWPM",  //Jan Kadlec
         "U026TUKM89Z",  //Stanislav Hacker
         "U0AMQ94LX7E",  //Jan Brandejs
